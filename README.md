@@ -1,7 +1,7 @@
 # ML_project_PumpItUp
 
 ## Preprocessing
-1. Handling missing values
+### 1. Handling missing values
 
 * Handling missing values in data set by adding 'Unknown' or 'mean value of the column' or most frequent value
     ex- 
@@ -13,11 +13,11 @@
 
 
 
-2. Feature Engineering
-**Creating New Features**
+### 2. Feature Engineering
+#### Creating New Features
 * created new features with following column names. decade, year_recorder, month_recorder, yearly_week_recorder, weekday_recorder, and age
 
-**Feature Selection**
+#### Feature Selection
 * create Heat-map to identify correlation between numerical columns (considered mutual information for feature selection)
 
 * Object type features which had considerable Nan values, are dropped
@@ -43,7 +43,7 @@
 
 
 
-3. Encoding
+### 3. Encoding
 
 * Use **Label Encoding** for categorical features.
 
@@ -51,5 +51,5 @@
 
 
 
-4. Normalization
+### 4. Normalization
 
