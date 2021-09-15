@@ -27,6 +27,7 @@
     3. num_private had 98% of zeros
 
 * some features were dropped due to similarities of between features or features with lot of small values compared to the other features or importance with the problem or decompose features into sub features.
+    
     ex- 
     1. Since payment and payment_type have same details, payment_type had been dropped due to less impact compared to the payment feature
     2. Since waterpoint_type and waterpoint_type_group have same details, waterpoint_type_group had been dropped due to less impact compared to the waterpoint_type feature
