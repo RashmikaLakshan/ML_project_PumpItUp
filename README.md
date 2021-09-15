@@ -53,3 +53,8 @@
 
 ### 4. Normalization
 
+## Proof of Submission
+![alt text](https://github.com/RashmikaLakshan/ML_project_PumpItUp/blob/main/proof.PNG?raw=true)
+
+## Final Rank
+![alt text](https://github.com/RashmikaLakshan/ML_project_PumpItUp/blob/main/rank.PNG?raw=true)
