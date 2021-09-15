@@ -52,6 +52,12 @@
 
 
 ### 4. Normalization
+* use standard normalization for encoded features.
+
+## Models
+* use XGBoost Classifier and Random Boost Classifier models to train the dataset. 
+* XGBClassifier model gives better accuracy. 
+
 
 ## Proof of Submission
 ![alt text](https://github.com/RashmikaLakshan/ML_project_PumpItUp/blob/main/proof.PNG?raw=true)
