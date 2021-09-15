@@ -4,9 +4,10 @@
 1. Handling missing values
 
 * Handling missing values in data set by adding 'Unknown' or 'mean value of the column' or most frequent value
-    ex- 1. NaNs of installer, and funder columns, fill with 'Unknown'
-        2. NaNs of public_meeting, and permit columns, fill with most frequent boolean value
-        3. NaNs of latitude, longitude, population, and construction_year columns, fill with mean value
+    ex- 
+    1. NaNs of installer, and funder columns, fill with 'Unknown'
+    2. NaNs of public_meeting, and permit columns, fill with most frequent boolean value
+    3. NaNs of latitude, longitude, population, and construction_year columns, fill with mean value
 
 * drop rows from training dataset where status_group column is NaN
 
