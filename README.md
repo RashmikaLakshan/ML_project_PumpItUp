@@ -4,7 +4,7 @@
 ### 1. Handling missing values
 
 * Handling missing values in data set by adding 'Unknown' or 'mean value of the column' or most frequent value
-    ex- 
+
     1. NaNs of installer, and funder columns, fill with 'Unknown'
     2. NaNs of public_meeting, and permit columns, fill with most frequent boolean value
     3. NaNs of latitude, longitude, population, and construction_year columns, fill with mean value
@@ -21,14 +21,13 @@
 * create Heat-map to identify correlation between numerical columns (considered mutual information for feature selection)
 
 * Object type features which had considerable Nan values, are dropped
-    ex- 
+
     1. scheme_management had 3000 NaN values
     2. amount_tsh had 70% of zeros
     3. num_private had 98% of zeros
 
 * some features were dropped due to similarities of between features or features with lot of small values compared to the other features or importance with the problem or decompose features into sub features.
     
-    ex- 
     1. Since payment and payment_type have same details, payment_type had been dropped due to less impact compared to the payment feature
     2. Since waterpoint_type and waterpoint_type_group have same details, waterpoint_type_group had been dropped due to less impact compared to the waterpoint_type feature
     3. Since quantity and quantity_group have same details, quantity_group had been dropped due to less impact compared to the quantity feature
